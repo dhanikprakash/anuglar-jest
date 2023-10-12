@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginationComponent should match snapshot 1`] = `
+PaginationComponent {
+  "__ngContext__": 7,
+  "currentPage": 1,
+  "limit": 10,
+  "pageChangeEvent": EventEmitter_ {
+    "__isAsync": false,
+    "closed": false,
+    "currentObservers": null,
+    "hasError": false,
+    "isStopped": false,
+    "observers": [],
+    "thrownError": null,
+  },
+  "pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+  ],
+  "pagesCount": 5,
+  "total": 50,
+  "utilsService": {
+    "range": [Function],
+  },
+}
+`;

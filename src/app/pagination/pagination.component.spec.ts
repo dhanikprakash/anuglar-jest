@@ -29,6 +29,12 @@ describe('PaginationComponent', () => {
     expect(component).toBeTruthy();
   });
 
+
+  it('should match snapshot', () => {
+
+    expect(component).toMatchSnapshot();
+  });
+
   it('renders correct pagination', () => {
     const pageContainers = fixture.debugElement.queryAll(
       By.css('[data-testid="page-container"]')
